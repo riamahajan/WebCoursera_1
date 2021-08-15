@@ -18,7 +18,7 @@ h1{
   margin-right: 20px;
   margin-bottom: 30px;
   background-color: #f3b8c0;
-  border: 3px solid #2b1515;
+  border: 1px solid black;
 }
 
 h2{
@@ -32,8 +32,8 @@ h2{
   padding: 6px;
   width: 35%;
   text-align: center;
-  border-bottom: 3px solid #2b1515;
-  border-left: 3px solid #2b1515;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 
 }
 
