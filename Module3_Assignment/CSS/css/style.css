@@ -26,7 +26,7 @@ nav {
   /* Restaurant name */
   font-family: "Lora", serif;
   color: #fffbfe;
-  font-size: 2.6em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: bolder;
   text-shadow: 2px 2px 2px #222;
@@ -51,7 +51,7 @@ nav {
 
 #navbarSupportedContent a {
   color: #420132;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bolder;
   text-align: center;
 }
@@ -68,7 +68,7 @@ h2 {
   font-family: "Lora", serif;
   font-weight: bolder;
   text-transform: capitalize;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 20px;
   text-shadow: 1px 1px 1px #222;
   line-height: 0.65;
@@ -84,7 +84,7 @@ h2 {
 h3 {
   padding: 5px;
   color: #420132;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: bolder;
   background-color: #fffbfe;
 }
@@ -97,10 +97,16 @@ p {
   color: #420132;
 }
 
+
 @media (max-width: 575px) {
   #main-content{
     padding: 10px 45px 10px 45px;
   }
+  h1{
+    padding: 1PX;
+    font-size: 0.5em;
+  }
+  
 }
 
 @media (min-width: 576px) {
