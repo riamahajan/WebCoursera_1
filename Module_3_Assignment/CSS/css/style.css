@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6d1e0;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+}
+
+nav {
+  width: 100%;
+}
+
+#nav-header {
+  background-color: #420132;
+  border-radius: 0px;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: auto;
+  margin-left: 10px;
+}
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: "Lora", serif;
+  color: #fffbfe;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px #222;
+  margin: 0px auto 0px -10px;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#navbarContent {
+  background-color: #fffbfe;
+  margin-top: 0;
+}
+
+#navbarSupportedContent a:hover {
+  background: whitesmoke;
+  opacity: 1;
+}
+
+#navbarSupportedContent a {
+  color: #420132;
+  font-size: 1.3em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #fffbfe;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 251, 254, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h2 {
+  color: #420132;
+  font-family: "Lora", serif;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 2em;
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px #222;
+  line-height: 0.65;
+  margin-bottom: 20px;
+}
+
+#column-content {
+  margin-bottom: 20px;
+  border: 3px solid #420132;
+  background-color: #fffbfe;
+}
+
+h3 {
+  padding: 5px;
+  color: #420132;
+  font-size: 1.5em;
+  font-weight: bolder;
+  background-color: #fffbfe;
+}
+
+p {
+  width: 100%;
+  padding-top: 0;
+  font-weight: bold;
+  padding: 0px 25px;
+  color: #420132;
+}
+
+
+@media (min-width: 767px) {
+   h1{
+    padding: 2px;
+    font-size: 0.5em;
+  }
+  #main-content{
+    padding: 0px 45px 0px 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbarContent {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbarContent {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #navbarContent {
+    display: none;
+  }
+}
