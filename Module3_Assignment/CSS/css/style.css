@@ -97,6 +97,12 @@ p {
   color: #420132;
 }
 
+@media (max-width: 575px) {
+  #main-content{
+    padding: 10px 45px 10px 45px;
+  }
+}
+
 @media (min-width: 576px) {
   #navbarContent {
     display: none;
