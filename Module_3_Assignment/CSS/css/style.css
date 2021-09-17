@@ -99,9 +99,6 @@ p {
 
 
 @media (min-width: 767px) {
-  #main-content{
-    padding: 10px 45px 10px 45px;
-  }
   h1{
     padding: 1PX;
     font-size: 0.5em;
